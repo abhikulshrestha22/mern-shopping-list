@@ -18,3 +18,8 @@
 .fade-exit-active{
   opacity: 0.01;
 }
+
+.add-btn{
+  margin-top:10px;
+  margin-bottom: 10px;
+}

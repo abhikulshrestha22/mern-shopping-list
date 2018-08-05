@@ -19,8 +19,8 @@ class ShoppingList extends Component{
     render(){
         const {items} = this.props.item;
         return (
-            <Container>
-                
+            
+                <div>
                     <ListGroup>
                     
                         <TransitionGroup className="shopping-list">
@@ -41,7 +41,8 @@ class ShoppingList extends Component{
                             ))}
                         </TransitionGroup>
                     </ListGroup>
-            </Container>
+                </div>
+            
         )
     }
 }

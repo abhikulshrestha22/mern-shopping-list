@@ -48,7 +48,7 @@ class ItemModal extends Component{
     render(){
         return (
             <div>
-                <Button color="dark" style={{marginBottom:'2 rem'}}
+                <Button color="dark" style={{marginBottom:'2rem'}}
                         onClick={this.toggle}> Add Item</Button>
                 <Modal
                     isOpen={this.state.modal}
@@ -66,8 +66,9 @@ class ItemModal extends Component{
                                     onChange={this.onChange}/>
                                 <Button 
                                    color="dark"
-                                   style={{marginTop:'2rem'}}
-                                   block>Add Item</Button>
+                                   
+                                   block
+                                   >Add Item</Button>
                             </FormGroup>
                          </Form>
                     </ModalBody>
